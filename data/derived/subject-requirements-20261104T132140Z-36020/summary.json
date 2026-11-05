@@ -1,0 +1,134 @@
+{
+  "source_id": "SRC-LN-SELECT-XLSX",
+  "source_path": "raw/SRC-LN-SELECT-XLSX/20261104T130719Z-20110.xlsx",
+  "source_sha256": "a4ea9871c49b223bad4ca53d7b391a2358f743d8b219ae4b9b393f1763038e92",
+  "generated_at": "2026-11-04T13:21:40Z",
+  "applicable_region": "辽宁",
+  "applicable_from_year": 2027,
+  "selected_subjects": [
+    "物理",
+    "化学",
+    "生物"
+  ],
+  "total_records": 48044,
+  "eligible_records": 46605,
+  "ineligible_records": 1439,
+  "review_required_records": 0,
+  "institutions": 1152,
+  "eligible_institutions": 1152,
+  "rule_counts": [
+    {
+      "rule": "不提科目要求",
+      "count": 20472,
+      "status": "eligible"
+    },
+    {
+      "rule": "物理,化学(2门科目考生均须选考方可报考)",
+      "count": 22714,
+      "status": "eligible"
+    },
+    {
+      "rule": "思想政治(1门科目考生必须选考方可报考)",
+      "count": 521,
+      "status": "ineligible"
+    },
+    {
+      "rule": "物理(1门科目考生必须选考方可报考)",
+      "count": 2748,
+      "status": "eligible"
+    },
+    {
+      "rule": "历史(1门科目考生必须选考方可报考)",
+      "count": 507,
+      "status": "ineligible"
+    },
+    {
+      "rule": "生物(1门科目考生必须选考方可报考)",
+      "count": 198,
+      "status": "eligible"
+    },
+    {
+      "rule": "地理(1门科目考生必须选考方可报考)",
+      "count": 269,
+      "status": "ineligible"
+    },
+    {
+      "rule": "化学(1门科目考生必须选考方可报考)",
+      "count": 175,
+      "status": "eligible"
+    },
+    {
+      "rule": "思想政治,历史(2门科目考生均须选考方可报考)",
+      "count": 80,
+      "status": "ineligible"
+    },
+    {
+      "rule": "物理,思想政治(2门科目考生均须选考方可报考)",
+      "count": 2,
+      "status": "ineligible"
+    },
+    {
+      "rule": "物理,化学,生物(3门科目考生均须选考方可报考)",
+      "count": 243,
+      "status": "eligible"
+    },
+    {
+      "rule": "物理,地理(2门科目考生均须选考方可报考)",
+      "count": 33,
+      "status": "ineligible"
+    },
+    {
+      "rule": "物理,生物(2门科目考生均须选考方可报考)",
+      "count": 48,
+      "status": "eligible"
+    },
+    {
+      "rule": "思想政治,历史,地理(3门科目考生均须选考方可报考)",
+      "count": 13,
+      "status": "ineligible"
+    },
+    {
+      "rule": "历史,地理(2门科目考生均须选考方可报考)",
+      "count": 8,
+      "status": "ineligible"
+    },
+    {
+      "rule": "化学,历史(2门科目考生均须选考方可报考)",
+      "count": 1,
+      "status": "ineligible"
+    },
+    {
+      "rule": "化学,生物(2门科目考生均须选考方可报考)",
+      "count": 7,
+      "status": "eligible"
+    },
+    {
+      "rule": "物理,化学,地理(3门科目考生均须选考方可报考)",
+      "count": 2,
+      "status": "ineligible"
+    },
+    {
+      "rule": "生物,历史(2门科目考生均须选考方可报考)",
+      "count": 1,
+      "status": "ineligible"
+    },
+    {
+      "rule": "生物,思想政治(2门科目考生均须选考方可报考)",
+      "count": 2,
+      "status": "ineligible"
+    }
+  ],
+  "level_counts": {
+    "本科": 48044
+  },
+  "versions": {
+    "ruby": "2.6.10",
+    "roo": "2.8.3"
+  },
+  "limitations": [
+    "仅核查选科要求，不核查批次、艺体或其他资格",
+    "不是2028招生计划或正式志愿代码表",
+    "条目可能是专业类或试验班，不等于独立专业数量",
+    "未作跨校区或跨项目合并，不提供录取概率"
+  ]
+}

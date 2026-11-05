@@ -1,0 +1,4 @@
+record_id,recorded_on,record_kind,topic,decision,rationale,family_confirmation,source_ids,notes
+D001,2026-11-04,recommendation,招生渠道,普通高考为主线且强基和综评先观察,成绩与兴趣尚不足以锁定学校专业,not_requested,SRC-DOC-MAJORS|SRC-LN-QA-2026,研究建议不冒充家庭已确认的报考选择
+D002,2026-11-04,recommendation,专业研究,先认识专业而不排名或预测录取,没有逐专业偏好及可靠全省位次,not_requested,SRC-DOC-MAJORS|SRC-FAMILY,不把校内排名折算成全省位次
+D003,2026-11-04,process,数据保存,本地原始资料加CSV和Markdown,家长同意继续落实本地保存方案,confirmed,SRC-FAMILY|SRC-DOC-RESEARCH,不代表同意上传云端或购买服务

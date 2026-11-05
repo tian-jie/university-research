@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'roo', '2.8.3'
+gem 'rubyzip', '2.3.2'
+gem 'spreadsheet', '1.3.5'
+gem 'ruby-ole', '1.2.13.1'
+gem 'afm', '0.2.2'
+gem 'Ascii85', '1.1.1'
+gem 'hashery', '2.1.2'
+gem 'ttfunk', '1.7.0'
+gem 'pdf-reader', '2.16.0'

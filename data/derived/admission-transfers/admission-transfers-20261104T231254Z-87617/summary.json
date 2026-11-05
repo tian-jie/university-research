@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-11-04T23:12:54Z",
+  "years": [
+    "2024"
+  ],
+  "source_ids": [
+    "SRC-LN-TRANSFER-PHYS-2024"
+  ],
+  "notice_source_ids": [
+    "SRC-LN-TRANSFER-NOTICE-2024"
+  ],
+  "by_year": {
+    "2024": {
+      "records": 10624,
+      "institution_groups": 917,
+      "score_range": {
+        "min": 342,
+        "max": 706
+      },
+      "tie_break_fields": [
+        "语数成绩",
+        "语数最高成绩",
+        "外语成绩",
+        "首选科目成绩",
+        "再选科目最高成绩",
+        "再选科目次高成绩",
+        "志愿号"
+      ],
+      "sample_institutions": [
+        {
+          "institution_code": "0378",
+          "institution_name": "安徽财经大学"
+        },
+        {
+          "institution_code": "0357",
+          "institution_name": "安徽大学"
+        },
+        {
+          "institution_code": "0363",
+          "institution_name": "安徽工程大学"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "结果为普通类本科批投档最低分，不等于最终录取最低分",
+    "未核校区、选科细分、计划人数与位次，rank留空",
+    "同分排序完整字段保存在派生CSV"
+  ]
+}
