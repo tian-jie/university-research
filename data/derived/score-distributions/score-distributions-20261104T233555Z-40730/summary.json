@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-11-04T23:35:55Z",
+  "years": [
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "scoring_basis_status": "计分口径待核实，仅供分数映射参考",
+  "by_year": {
+    "2024": {
+      "source_id": "SRC-LN-DISTRIBUTION-PHYS-2024",
+      "source_path": "raw/SRC-LN-DISTRIBUTION-PHYS-2024/20261104T231549Z-91376.pdf",
+      "source_sha256": "ec244daa2eaa01603ead719832b68369f756d7543127ce34b02082e61bddf584",
+      "notice_source_id": "SRC-LN-DISTRIBUTION-NOTICE-2024",
+      "notice_path": "raw/SRC-LN-DISTRIBUTION-NOTICE-2024/20261104T231549Z-91376.html",
+      "page_count": 4,
+      "title": "2024年辽宁省普通高校招生考试成绩统计表(物理学科类)",
+      "footnotes": [
+        "表中的成绩为文化课总分与政策加分之和，人数为普通类、艺术类和体育类人数之和。",
+        "页码1",
+        "页码2",
+        "页码3",
+        "页码4"
+      ],
+      "score_band_count": 559,
+      "score_range_known": {
+        "min": 150,
+        "max": 708
+      },
+      "includes_unknown_bound_band": false
+    },
+    "2025": {
+      "source_id": "SRC-LN-DISTRIBUTION-PHYS-2025",
+      "source_path": "raw/SRC-LN-DISTRIBUTION-PHYS-2025/20261104T231550Z-91376.pdf",
+      "source_sha256": "acf112a955da480b6d818036d5b5731ea4a937c43f94958eed1a3c68544be91b",
+      "notice_source_id": "SRC-LN-DISTRIBUTION-NOTICE-2025",
+      "notice_path": "raw/SRC-LN-DISTRIBUTION-NOTICE-2025/20261104T231549Z-91376.html",
+      "page_count": 4,
+      "title": "2025年辽宁省普通高校招生考试成绩统计表(物理学科类)",
+      "footnotes": [
+        "表中的成绩为文化课总分与政策加分之和，人数为普通类、艺术类和体育类人数之和。",
+        "页码1",
+        "页码2",
+        "页码3",
+        "页码4"
+      ],
+      "score_band_count": 558,
+      "score_range_known": {
+        "min": 150,
+        "max": 750
+      },
+      "includes_unknown_bound_band": false
+    },
+    "2026": {
+      "source_id": "SRC-LN-DISTRIBUTION-PHYS-2026",
+      "source_path": "raw/SRC-LN-DISTRIBUTION-PHYS-2026/20261104T231550Z-91376.pdf",
+      "source_sha256": "9f27e33a06f7bcdc666eb60ddca51d8692eb318191bf95274e2641e16eda7979",
+      "notice_source_id": "SRC-LN-DISTRIBUTION-NOTICE-2026",
+      "notice_path": "raw/SRC-LN-DISTRIBUTION-NOTICE-2026/20261104T231550Z-91376.html",
+      "page_count": 4,
+      "title": "辽宁省2026年普通高校招生考试成绩统计表(物理学科类)",
+      "footnotes": [
+        "表中的成绩为文化课总分与政策加分之和，人数为普通类、艺术类和体育类人数之和。",
+        "页码1",
+        "页码2",
+        "页码3",
+        "页码4"
+      ],
+      "score_band_count": 559,
+      "score_range_known": {
+        "min": 150,
+        "max": 750
+      },
+      "includes_unknown_bound_band": false
+    }
+  },
+  "admission_rank_reference": {
+    "2024": {
+      "admission_records": 10624,
+      "institution_groups": 917,
+      "single_score_band_matches": 10624,
+      "aggregated_band_matches": 0,
+      "unmatched": 0
+    },
+    "2026": {
+      "admission_records": 11628,
+      "institution_groups": 956,
+      "single_score_band_matches": 11628,
+      "aggregated_band_matches": 0,
+      "unmatched": 0
+    }
+  },
+  "limitations": [
+    "2025年投档附件为EncryptedPackage/EncryptionInfo结构，未解密且保留缺口",
+    "PDF统计表与专业投档分计分口径未完成官方同口径确认",
+    "rank区间为统计表分段累计推导，不是官方发布的专业精确位次"
+  ]
+}

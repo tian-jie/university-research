@@ -1,0 +1,13 @@
+record_id,recorded_on,record_kind,policy_year,province,institution,channel,item,details,start_date,end_date,date_precision,action_status,verification_status,source_ids,notes
+P001,2026-11-04,fact,2026,辽宁,,普通本科批,志愿模式,112个专业加学校平行志愿且该模式无专业服从调剂,,,,historical_reference,已核实当年规则,SRC-LN-QA-2026,仍有不符合条件的退档风险且不适用于全部批次
+P002,2026-11-04,fact,2026,辽宁,,强基计划,录取衔接,强基录取后不再参加后续志愿录取,,,,historical_reference,已核实当年规则,SRC-LN-QA-2026,不表示本家庭已符合具体学校资格
+P003,2026-11-04,fact,2026,,大连理工大学,强基计划,报名截止,按2026简章报名截止4月30日,,2026-04-30,day,historical_reference,已核实当年规则,SRC-DLUT-QJ-2026,辽宁分省计划未取得且不是2028待办
+P004,2026-11-04,fact,2026,,大连理工大学,强基计划,报考确认,高考后还须在平台确认报考,2026-06-12,2026-06-20,day,historical_reference,已核实当年规则,SRC-DLUT-QJ-2026,不能将报名等同于完成确认
+P005,2026-11-04,fact,2026,,大连理工大学,强基计划,校考日期,2026年校考包括面试和体育达标测试,2026-07-01,2026-07-01,day,historical_reference,已核实当年规则,SRC-DLUT-QJ-2026,具体时地以当年准考证和通知为准
+P006,2026-11-04,fact,2026,,大连理工大学,强基计划,专业限制,原则上不得调整专业且有培养分流考核,,,,historical_reference,已核实当年规则,SRC-DLUT-QJ-2026,不能当作先入校再自由转专业的工具
+P007,2026-11-04,fact,2026,辽宁,上海科技大学,综合评价,招生与选科,2026面向辽宁综评且全部专业要求物理和化学,,,,historical_reference,已核实当年规则,SRC-SHT-FAQ-2026,不是2028招生承诺
+P008,2026-11-04,fact,2026,辽宁,上海科技大学,综合评价,报名截止,2026校园开放日报名截止5月6日,,2026-05-06,day,historical_reference,已核实当年规则,SRC-SHT-FAQ-2026,不生成当前待办
+P009,2026-11-04,fact,2026,辽宁,上海科技大学,综合评价,预计面试窗口,问答预计高考后6月10至20日安排面试,2026-06-10,2026-06-20,tentative,historical_reference,已核实预告而非最终安排,SRC-SHT-FAQ-2026,实际场次与形式按当年系统通知
+P010,2026-11-04,fact,2026,辽宁,上海科技大学,综合评价,计分及裸分报考,开放日A20分B15分C10分；辽宁未获开放日成绩也可裸分填报,,,,historical_reference,已核实当年规则,SRC-SHT-FAQ-2026,不是全国高考加分且不套用江苏规则
+P011,2026-11-04,fact,2026,辽宁,南方科技大学,综合评价,招生线索,官网有2026辽宁综评录取名单标题,,,,reference_only,仅核实标题,SRC-SUSTECH-HOME,简章正文计分及截止日期均待补
+P012,2026-11-04,pending,,辽宁,,专项及军警公费师范中外合作港澳,资格筛查,不同路径需分别核查资格意愿费用及录取衔接,,,,reference_only,未逐项核实,SRC-DOC-MAJORS,不是已经可用的机会清单

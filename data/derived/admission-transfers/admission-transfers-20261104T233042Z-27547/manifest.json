@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-11-04T23:30:42Z",
+  "years": [
+    "2026"
+  ],
+  "files": [
+    {
+      "path": "data/derived/admission-transfers/admission-transfers-20261104T233042Z-27547/all-2026.csv",
+      "sha256": "1c22cde26d660fd92d54037f1149f220b0fe5651cf8c82b90a58cd3a64607d54"
+    },
+    {
+      "path": "data/derived/admission-transfers/admission-transfers-20261104T233042Z-27547/summary.json",
+      "sha256": "add1069bb0165b9e53e3ae677c3ab41189b84fe2e90f441a0fa7f73aa0cada66"
+    }
+  ],
+  "sources": {
+    "2026": {
+      "notice_source_id": "SRC-LN-TRANSFER-NOTICE-2026",
+      "source_id": "SRC-LN-TRANSFER-PHYS-2026",
+      "source_path": "raw/SRC-LN-TRANSFER-PHYS-2026/20261104T231549Z-91376.xlsx",
+      "source_sha256": "6fc525da6faeb36b20cbd314fa1942d4ce5922c95e6857a6c9c5937ec88d572c"
+    }
+  }
+}
